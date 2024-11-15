@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "spuriously-connected-words"
+version = "0.1.0"
+description = ""
+authors = ["Kai Striega <me@kaistriega.com>"]
+readme = "README.md"
+packages = [{include = "spuriously_connected_words", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+neo4j = "^5.26.0"
+
+
+[tool.poetry.group.model.dependencies]
+gensim = "^4.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

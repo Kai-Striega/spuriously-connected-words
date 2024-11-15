@@ -1,0 +1,3 @@
+[submodule "src/EtymDB"]
+	path = src/EtymDB
+	url = https://github.com/clefourrier/EtymDB.git
